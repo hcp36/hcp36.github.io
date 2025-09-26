@@ -1,0 +1,57 @@
+h1 {
+    color: black;
+    font-size: 39px;
+    font-family: arial, helvetica, sans-serif;
+    }
+h2 {
+    color:black;
+    font-family: arial, helvetica, sans-serif;
+}
+p {
+    text-indent: 30px;
+    color: black;
+    width: 100%;
+    height: auto;
+    font-family: arial, helvetica, sans-serif;
+}
+div.text {
+    width: 36%;
+    position:absolute;
+    background-color: rgba(226,226,226,0.8);
+    padding: 5px 20px 10px 20px;
+}
+div.scrollContainer {
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    position:absolute;
+    right: 0px;
+}
+div.text2 {
+    width: 36%;
+    font-size:20px;
+    font-family: courier, fixed, monospace;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+div.text3 {
+    width: 60%;
+    position:absolute;
+    right: 0px;
+    bottom: 10px;
+    background-color: rgba(226,226,226,0.8);
+    padding: 5px 20px 10px 20px;
+    box-sizing:border-box;
+
+}
+img {
+    width:100%;
+    height:66%;
+
+}
+body {
+    background-color: rgba(255,255,255);
+    overflow:hidden;
+}
