@@ -15,40 +15,45 @@ p {
     font-family: arial, helvetica, sans-serif;
 }
 div.text {
-    width: 36%;
+    width: 38.5%;
     position:absolute;
     background-color: rgba(226,226,226,0.8);
-    padding: 5px 20px 10px 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 10px 20px;
+    box-sizing: border-box;
 }
 div.scrollContainer {
     width: 60%;
-    height: 100%;
-    overflow: auto;
+    height:69%;
+    overflow-y: hidden;
+    overflow-x:auto;
     white-space: nowrap;
     position:absolute;
-    right: 0px;
+    right: 5px;
+    top: 5px;
 }
 div.text2 {
     width: 36%;
     font-size:20px;
     font-family: courier, fixed, monospace;
     position: absolute;
-    bottom: 20px;
+    bottom: 35px;
     left: 30px;
 }
 div.text3 {
     width: 60%;
     position:absolute;
-    right: 0px;
-    bottom: 10px;
+    right: 5px;
+    bottom: 5px;
     background-color: rgba(226,226,226,0.8);
-    padding: 5px 20px 10px 20px;
+    padding: 0px 20px 0px 20px;
     box-sizing:border-box;
 
 }
 img {
     width:100%;
-    height:66%;
+    height:100%;
+    top:5px;
 
 }
 body {
