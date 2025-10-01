@@ -1,15 +1,22 @@
 h1 {
-    color: black;
-    font-size: 39px;
+    color: white;
+    font-size: 28px;
     font-family: arial, helvetica, sans-serif;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 10px 5px 10px;
+    background-color:rgba(243, 158, 38, 0.9);
+
     }
 h2 {
-    color:black;
+    color:white;
+    font-size: 40px;
     font-family: arial, helvetica, sans-serif;
+    margin: 40px 0px 0px 30px;
 }
 p {
     text-indent: 30px;
-    color: black;
+    color: white;
+    font-size: 18px;
     width: 100%;
     height: auto;
     font-family: arial, helvetica, sans-serif;
@@ -17,28 +24,29 @@ p {
 div.text {
     width: 38.5%;
     position:absolute;
-    background-color: rgba(226,226,226,0.8);
-    margin: 0px 0px 0px 0px;
-    padding: 0px 20px 10px 20px;
+    right: 20px;
+    background-color: rgba(54, 54, 54, 1.0);
+    margin: 20px 0px 0px 20px;
+    border: white 3px solid;
+    padding: 0px 20px 10px 25px;
     box-sizing: border-box;
 }
 div.scrollContainer {
-    width: 60%;
-    height:69%;
-    overflow-y: hidden;
-    overflow-x:auto;
-    white-space: nowrap;
-    position:absolute;
-    right: 5px;
-    top: 5px;
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 div.text2 {
-    width: 36%;
-    font-size:20px;
+    width: 38.5%;
+    font-size:30px;
+    color:white;
     font-family: courier, fixed, monospace;
     position: absolute;
-    bottom: 35px;
+    padding:10px 10px 10px 10px;
+    bottom: 30px;
     left: 30px;
+    box-sizing:border-box;
 }
 div.text3 {
     width: 60%;
@@ -50,13 +58,26 @@ div.text3 {
     box-sizing:border-box;
 
 }
-img {
-    width:100%;
-    height:100%;
-    top:5px;
+div.nav {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: rgba(54, 54, 54, 0.8);
+    box-sizing: border-box;
+}
 
+img { 
+    width:40%
+    height:auto;
+}
+a {
+    color:inherit;
+    text-decoration: none;
 }
 body {
-    background-color: rgba(255,255,255);
-    overflow:hidden;
+    background-image: url("tunnel.jpg");
+    overflow: hidden;
+    background-size: cover;
 }
